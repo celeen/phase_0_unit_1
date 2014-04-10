@@ -49,6 +49,8 @@
   * Upload your own image to the web using an image hosting service.  It should match the image above. The last nav link in the image above is black because the mouse was hovering there when the screenshot was taken. Do the same, and don't take a screenshot of your whole desktop, just the browser window. (This is part of the challenge.)
   
   	**ok!**
+  	
+  	**[Here It Is!](https://lh4.googleusercontent.com/-Et58JQLwgO4/U0YCYF_VaMI/AAAAAAAAAtI/Q7KvFiG9ofs/s912/Screen%2520Shot%25202014-04-09%2520at%25209.29.56%2520PM.png)**
 
 * For the postmachina website, why can't you tweak the color of the text "The most important things are not things"?  Please explain.
 
