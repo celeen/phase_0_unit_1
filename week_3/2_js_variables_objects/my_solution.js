@@ -1,4 +1,4 @@
-// I paired [by myself, with:] on this challenge.
+// I paired [with: Andy Principe] on this challenge.
 
 
 
@@ -33,14 +33,23 @@ var members = ["John", 28, 1, "Mary"]
 // __________________________________________
 // Refactored Code: Include a refactored version (or justification of your original code) here. 
 
-
-
+var secretNumber = 7;
+var password = "just open the door";
+var allowedIn = false;
+var members = new Array();
+members.push(28);
+members.push(1);
+members.unshift("John");
+members.push("Mary")
+console.log(members[3])
+//I tried resetting allowedIn as a function, because that seems like the likely way this kind of code would go- a function that asks for the password and returns false if not entered correctly. But that is asking for more than what the test want. And since there is no broader written goal to accompany the test, I can only assume that this code, which passes, meets expectations.
+//So, the only other thing I could think to do is to add to the array after it's created, since the objectives say that we should practice adding objects to an array.
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
 // 
-// 
+// This challenge seemed pretty straightforward. We created variables, and an array. In refactoring, I laid out the array in a longer fashion in order to practice pushing an unshifting- which was good, as the first time I tried, I used shift, wrongly. So, I got some good practice at test driven development, at running the code in terminal and then editing and refactoring.
 // 
 // 
 // 
