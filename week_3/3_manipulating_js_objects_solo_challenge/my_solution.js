@@ -16,36 +16,72 @@ var terah = {
 1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
 
+create a variable named adam
+
 2. Give adam a name property with the value "Adam".
+
+adam's nbame set equal to "Adam"
 
 3. Add a spouse property to terah and assign it the value of adam.
 
+terah's spouse set equal to adam
+
 4. Change the value of the terah weight property to 125.
+
+terah's weight property set equal to 125
 
 5. Remove the eyeColor property from terah.
 
+delete terah's eyeColor
+
 6. Add a spouse property to adam and assign it the value of terah.
+
+adam's spouse set equal to terah
 
 7. Add a children property to terah and and use object literal notation to assign 
    this variable the value of a JavaScript Object object with no properties
 
+   terah's children set equal to a new object with no properties
+
 8. Add a carson property to the value of the terah children property and assign it 
   the value of an object with the property name with a value of "Carson".
+
+  terah's children's carson property set equal to object with no value;
+  terah's children's carson's name property set equal to "Carson"
 
 9. Add a carter property to the value of the terah children property and assign it 
    the value of an object with the property name with a value of "Carter".
 
+  terah's children's carter property set equal to object with no value;
+  terah's children's carter's name property set equal to "Carter"
+
 10. Add a colton property to the value of the terah children property and assign it 
     the value of an object with the property name with a value of "Colton".
 
-11. Add a children property to adam and assign it the value of terah children.
+  terah's children's colton property set equal to object with no value;
+  terah's children's colton's name property set equal to "Colton"
 
+11. Add a children property to adam and assign it the value of terah children.
+    adam's children property set equal to terah's children property
 
 */
 
 // __________________________________________
 // Write your code below.
-
+var adam = {};
+adam.name = "Adam";
+terah.spouse = adam;
+terah.weight = 125;
+delete terah.eyeColor;
+adam.spouse = terah;
+terah.children = {};
+terah.children.carson = {};
+terah.children.carson.name = "Carson";
+terah.children.carter = {};
+terah.children.carter.name = "Carter";
+terah.children.colton = {};
+terah.children.colton.name = "Colton";
+adam.children = terah.children;
 
 
 
@@ -56,9 +92,9 @@ var terah = {
 // __________________________________________
 // Reflection: Use the reflection guidelines
 // 
+// I got mixed up in the terah's children section; I first thought that terah's children preoprty was supposed to contain a property names carson whose value was "Carson". I missed the "name" property and the second embedded object entirely! Then I refactored my pseudo code and the code, and couldn't figure out why it wasn't working... it was because I had copied and pasted the first chilren's property instructions without changing the name from carson! Doh!
 // 
-// 
-// 
+// This was a very useful exercise in visualizing Javascript objects. Also, objectification carries new meaning.
 // 
 // 
 
