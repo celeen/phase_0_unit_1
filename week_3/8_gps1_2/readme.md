@@ -61,7 +61,7 @@ shooterMcGavin.quote === "Just stay out of my way... or you'll pay. Listen to wh
 ```
 
 #### 4. "Show 'em off!" 
-You've done an incredible job making a names for yourselves! Now that you have all these clients, 
+You've done an incredible job making names for yourselves! Now that you have all these clients, 
 create a way to display each of them with their respective properties, and make it look nice!
 
 #### 5. Bonus

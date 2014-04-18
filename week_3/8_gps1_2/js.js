@@ -56,19 +56,7 @@ shooterMcGavin.quote === "Just stay out of my way... or you'll pay. Listen to wh
 
 var array = [louis, eddie, adam, kristen, jim, shooterMcGavin];
 
-function printItOut (actor){
-    console.log(actor.number + ". We have " + actor.name + ", who is " + actor.age + ", and is known for saying '" + actor.quote + "'.");
-}
-
 for (var i = 0; i < array.length; i++) {
-    array[i].number = (i + 1);
-    printItOut(array[i]);
+    var actor = array[i];
+    console.log("We have " + actor.name + ", who is " + actor.age + ", and is known for saying '" actor.quote + "'.");
 }
-
-
-
-
-// ** BONUS **
-
-
-//  Your Reflection:

@@ -4,18 +4,29 @@
 
 
 // Pseudocode
-// 
-// 
-// 
-// 
+// call the variable secretNumber
+// set variable secretNumber equal to a number
+// set variable secretNumber equal to 7
+// call the variable password
+//set variable password equal to a string
+//set value of password equal to 'just open the door'
+//call boolean allowedIn
+//set value of boolean allowedIn to a boolean
+//set value of boolean allowed In equal to false
+//call variable members
+//set value to an array
+//set first element in array members equal to 'John'
+//set the fourth elemeent of array members equal to 'Mary'
+//
 
 
 // __________________________________________
 // Write your code below.
 
-
-
-
+var secretNumber = 7;
+var password = "just open the door"
+var allowedIn = false
+var members = ["John", 28, 1, "Mary"]
 
 
 
