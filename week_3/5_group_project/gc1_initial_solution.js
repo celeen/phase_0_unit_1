@@ -19,10 +19,10 @@ mean([1,2,3]);
 
 var median = function(x){
 	var y = x.length;
-	if (y/2 % 1) {
+	if (y%2 === 1) {
 		return x[(y-1)/2];
 	}; 
-	if (!(y/2 % 1)) {
+	if (y%2 === 0) {
 		first = x[(y/2)-1];
 		second = x[y/2];
 		return (first + second)/2;
