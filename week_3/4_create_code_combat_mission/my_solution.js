@@ -28,7 +28,8 @@ tower.location = (2,8);
 tower.climbable = 0;
 
 var rapunzel = {}
-rapunzel.climbableHair = 49;
+rapunzel.hair = {}
+rapunzel.hair.climbable = 49;
 rapunzel.location = (2,8);
 rapunzel.elevation = 50;
 
@@ -36,8 +37,9 @@ rapunzel.elevation = 50;
 var moveUp = function(){tharin.location = ( x ,y + 1);
 }
 var moveRight = function(){tharin.location = (x + 1, y)};
-var climb = function() {
-	if
+var climb = function(x) {
+	if (x.climbable + this.elevation >= x.elevation){
+		this.elevation = x.elevation
 }
 
 
@@ -45,14 +47,30 @@ var climb = function() {
 
 
 // Refactored Code
+var tharin = {location:(0,0), elevation: 1, type: moveable};
 
+var tower = {height: 50, locationx: 2, locationy: 8, climbable: 0, type: static};
+
+var rapunzel = 
+{   locationx: 2, 
+	locationy:8, 
+	elevation: 50, 
+	type: static,
+	hair: 
+	{ climbable: 49 }}
+var moveUp = function(){tharin.locationy += 1};
+}
+var moveRight = function(){tharin.locationx += 1};
+var climb = function(x) {
+	if (x.climbable + tharin.elevation >= x.elevation){this.elevation = x.elevation}
+};
 
 
 
 
 
 // Reflection
-// 
+// In my prep, I kept making tihs exercise harder than I needed to/should have. I would rather do it and get the right syntax and logic than choose a course over my head and fib some aspects of it. I settled on rapunzel early on thinking it would be cute, but couldn't decide which functions were necessary, or how to have the objects interact. Should tharin call our to rapunzel to let her hair down? How would I measure that? Would I need to create a function then that causes rapunzel to let her hair down? How do I measure THAT? I decide to stick with simple for now, and I still learned a lot. All the parameters that must go into making an actual working game, or app! Especially one of this type, where characters interact...
 // 
 // 
 // 
