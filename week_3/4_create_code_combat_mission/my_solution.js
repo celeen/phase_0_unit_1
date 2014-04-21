@@ -1,4 +1,4 @@
-// I worked [myself] on this challenge
+// I worked [myself, with Stu Pearlman] on this challenge
 
 // Your mission description:
 // Rapunzel is in her tower, which is located 8m east and 2m north of the opening to a clearing in the woods. Her tower is 50m high, and her hair is 49m  long. Tharin enters the clearing at its entrance, (0,0). He must walk to the tower, and climb her hair.
